@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "dependencies": {
+    "@azathoth-11/blog-common": "^1.0.0",
+    "@prisma/client": "^5.11.0",
+    "@prisma/extension-accelerate": "^1.0.0",
+    "hono": "^4.1.5",
+    "prisma": "^5.11.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240208.0",
+    "@types/node": "^20.12.2",
+    "wrangler": "^3.32.0"
+  }
+}
